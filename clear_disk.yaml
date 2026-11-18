@@ -1,0 +1,8 @@
+---
+- name: Auto-Remediation - Clear Disk Space
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Simulate clearing old log files
+      debug:
+        msg: "Old logs cleared. Disk space restored by AIOps Copilot."

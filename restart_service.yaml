@@ -1,0 +1,8 @@
+---
+- name: Auto-Remediation - Restart Web Service
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Simulate restarting a stalled web service
+      debug:
+        msg: "Service successfully restarted by AIOps Copilot."

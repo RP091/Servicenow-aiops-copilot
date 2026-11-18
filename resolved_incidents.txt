@@ -1,0 +1,17 @@
+- INC-050 (Resolved): Memory leak in Node.js app caused by unclosed DB connections. Fix: Enforced connection pooling limits.
+- INC-082 (Resolved): Linux OOM (Out of Memory) killer terminated Java process. Fix: Increased JVM heap size limit in config.
+- INC-099 (Resolved): Python analytics script crashed with MemoryError. Fix: Switched to pandas chunksize processing to avoid loading massive CSVs into RAM.
+- INC-111 (Resolved): CRITICAL: Python data processing container killed by OOM killer.. Fix: I have followed the recommendation 1 and it resolved the issue
+- INC-891 (Resolved): how to create a new folder in macbook. Fix: this was some what better
+- INC-623 (Resolved): How to open terminal in macbook. Fix: this look ok
+- INC-215 (Resolved): who is hero of pushpa. Fix: Looks good
+- INC10841977 (Resolved): What is the weather in pune right now. Fix: Resolution notes updated via SNOW dashboard.
+- INC10813367 (Resolved): Node.js application is experiencing a memory leak, suspecting unclosed database connections." (AI should immediately suggest enforcing connection pooling limits based on INC-050).. Fix: Resolution notes updated via SNOW dashboard.
+- INC10838059 (Resolved): "Linux OOM killer terminated the Java backend process.. Fix: Resolution notes updated via SNOW dashboard.
+- INC10882391 (Resolved): who is the actress of pushpa. Fix: Resolution notes updated via SNOW dashboard.
+- INC10832605 (Resolved): "SSL certificate validation failed on the internal API gateway, causing authentication drops.". Fix: Resolution notes updated via SNOW dashboard.
+- INC10818890 (Resolved): Function Not Working. Fix: Resolution notes updated via SNOW dashboard.
+- INC10842753 (Resolved): Who is the hero of pushpa. Fix: Resolution notes updated via SNOW dashboard.
+- INC10894255 (Resolved): I'm not able to open terminal in mac. Fix: Resolution notes updated via SNOW dashboard.
+- INC10898604 (Resolved): Who is the hero of magadheera. Fix: Resolution notes updated via SNOW dashboard.
+- INC10834519 (Resolved): Who is the actress of magadheera. Fix: Resolution notes updated via SNOW dashboard.

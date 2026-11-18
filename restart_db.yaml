@@ -1,0 +1,8 @@
+---
+- name: Auto-Remediation - Restart DB Connections
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Simulate flushing database connection pool
+      debug:
+        msg: "DB connection pool flushed. Service restored by AIOps Copilot."
